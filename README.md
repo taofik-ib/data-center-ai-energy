@@ -26,5 +26,29 @@ This project requires **Python 3.7+** and the following libraries:
 
 Install everything with:
 
-```bash
+```
 pip install -r requirements.txt
+```
+
+---
+
+## 🖥️ How to Run the Python Script (.py)
+
+### 1. Navigate to the project folder
+
+```
+cd data-center-ai-energy
+```
+
+### 2. Run the script
+
+```
+python data_center_ai_energy.py
+```
+
+### This will automatically:
+
+- Load historical + projected energy data  
+- Calculate carbon intensities and emissions  
+- Compute AI vs non-AI energy use  
+- Generate and save figures to the `figures/` folder  
